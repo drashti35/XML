@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+	<template>
+		<salesperson>
+			<Name>Vaibhavi</Name>
+			<Business_info>
+				<Company>Tata</Company>
+				<Department>sales</Department>
+				<Manager>priya</Manager>
+				<Phone_no>1234567890</Phone_no>
+				<Email>drashti@gmail.com</Email>
+			</Business_info>
+			<Personal_info>
+				<Phone_no>1234567890</Phone_no>
+				<Address>ahmedabad</Address>
+			</Personal_info>
+		</salesperson>
+	</template>
+	<!--Create an XML document template to capture information about
+salesperson where it contains the following data:
+Name, Business Info (Company, Department, Manager,
+Phone no, Email) Personal Info (Phone no, Address).
+Capture this information in an XML format.
+Write a schema that defines that Department value
+should be restricted by the following values only (Sales,
+Financial, Operation, Database)-->

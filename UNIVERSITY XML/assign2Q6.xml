@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<!DOCTYPE details SYSTEM "assign2Q6.dtd">
+	<details>
+		<Student>
+			<Name fname="drashti" lname="patel">drashti</Name>
+			<ID>1232</ID>
+			<Plan>
+				<courses year="2020">
+					<course>
+						<name>jakgd</name>
+						<shortName>pdcn</shortName>
+						<record>
+							<Grade>nbxc</Grade>
+							<date>12-03-2000</date>
+						</record>
+					</course>
+				</courses>
+				<courses year="2020">
+					<course>
+						<name>jakgd</name>
+						<shortName>pdcn</shortName>
+						<record>
+							<Grade>nbxc</Grade>
+							<date>12-03-2000</date>
+						</record>
+					</course>
+				</courses>
+			</Plan>
+		</Student>
+	</details>
+	<!--Create an XML document Student where it contains the following data:
+Student(Name (fname & Lname) , ID , Plan (courses) ). In
+courses element take (year) as an attribute and (course) as an
+sub-element . And Course has name , shortName , record as its
+sub element. And again record has its sub element Grade , date.
+Create An External DTD for the above XML document where :
+• Courses element can zero or more course.
+• Year attribute must appear in the element.
+• Record element should appear zero or more times.-->

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="details">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="city">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="cityname" type="xsd:string"/>
+							<xsd:element name="cityid">
+								<xsd:complexType mixed="true">
+									<xsd:attribute name="statename" type="xsd:string"/>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="population" type="xsd:int"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

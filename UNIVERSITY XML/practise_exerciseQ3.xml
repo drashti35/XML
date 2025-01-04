@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Salary SYSTEM "practise_exerciseQ3.dtd">
+	<Salary>
+		<Net_salary></Net_salary>
+		<Gross_salary></Gross_salary>
+		<HRA></HRA>
+		<DA></DA>
+	</Salary>
+	<!--In Question 2 Use conditional statement INCLUDE of Employee
+Salary information DTD and IGNORE of Personal info DTD)-->

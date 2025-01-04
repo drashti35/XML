@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+	<Details>
+		<student>
+			<firstname>drashti</firstname>
+			<lastname>patel</lastname>
+			<address>ahmedabad</address>
+			<percentage>98</percentage>
+			<current_year>1998</current_year>
+		</student>
+	</Details>
+	<!--Write a an XML document and corresponding XML schema for
+maintaing the studeent firstname, lastname, address, percentage,
+current year.-->

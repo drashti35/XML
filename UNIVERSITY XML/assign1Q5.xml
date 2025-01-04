@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<details>
+		<Books>
+			<book title="100 science facts">Science Facts</book>
+			<author>robert kiyosaki</author>
+			<year>1987</year>
+			<publisher>navneet</publisher>
+		</Books>
+	</details>
+	<!--Create an XML document Books where it contains the following data :
+Books (book (title) as an attribute , author , year , publisher ).-->

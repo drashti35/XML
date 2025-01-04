@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+	<Personal_info>
+		<lunch>
+			<starter>
+				<soup>tomato</soup>
+			</starter>
+			<Main_course>
+				<veg_lunch>panner tikka</veg_lunch>
+			</Main_course>
+			<Dessert>
+				<Ice-cream>vanilla</Ice-cream>
+			</Dessert>
+		</lunch>
+	</Personal_info>
+	<!--Create XML document for storing personal information about Lunch
+where it contains the following data:
+Starter (juicer/soup), Main Course(Veg Lunch/non veg
+lunch) , Dessert(Ice-cream/Fruit Salad) Capture this information in an
+XML format.
+Write an XML schema where
+There should be options in each of the categories.
+There should be sequence with element-->

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<Library>
+		<Book>
+			<title>Rich dad poor dad</title>
+			<price>80</price>
+		</Book>
+		<Book>
+			<title>It Ends with us</title>
+			<price>70</price>
+		</Book>	
+		<Book>
+			<title>It start with us</title>
+			<price>90</price>
+		</Book>
+	</Library>
+<!--Create an XML File Structure to store following data for Library:
+Library (Book (title, price))
+Write an XSLT Code to arrange book details in table format with following:
+a. Header should have background color as blue
+b. arrage book details in descending order of their price-->

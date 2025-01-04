@@ -1,0 +1,31 @@
+<?xml version="1.0"?>	
+	<!DOCTYPE details[
+		<!ELEMENT details (OrderDetail)>
+		<!ELEMENT OrderDetail (OrderNumber,Orderate,OrderAmount,ItemPrice*,ItemName+,Quantity*)>
+		<!ELEMENT OrderNumber (#PCDATA)>
+		<!ATTLIST OrderNumber OrderDate CDATA #REQUIRED>
+		<!ELEMENT Orderate (#PCDATA)>
+		<!ELEMENT OrderAmount (#PCDATA)>
+		<!ELEMENT ItemPrice (#PCDATA)>
+		<!ELEMENT ItemName (#PCDATA)>
+		<!ELEMENT Quantity (#PCDATA)>
+		]>
+	<details>
+		<OrderDetail>
+			<OrderNumber OrderDate="12-03-2004">12</OrderNumber>
+			<Orderate>35</Orderate>
+			<OrderAmount>60</OrderAmount>
+			<ItemPrice>10</ItemPrice>
+			<ItemName>soap</ItemName>
+			<Quantity>50</Quantity>
+		</OrderDetail>
+	</details>
+	<!--Create XML document OrderDetail where it contains the following
+data:
+Order_Detail(OrderNumber, Orderate, OrderAmount,ItemPrice,
+ItemName, Quantity)
+Create DTD declaration for OrderDetail where
+• OrderDate will appear as an attribute to OrderNumber
+• ItemName should come at least one time.
+• Order Amount should come only once.
+• Item Price and Quantity can come zero or more times.-->

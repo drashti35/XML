@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Emp_details SYSTEM "practise_exerciseQ2.dtd">
+	<Emp_details>
+		<Employee>
+			<Employee_Name></Employee_Name>
+			<Personal_info>
+				<Address></Address>
+				<Birthdate></Birthdate>
+				<Gender>
+					<female></female>
+				</Gender>
+				<Mobileno></Mobileno>
+			</Personal_info>
+			<Salary>
+				<Net_salary></Net_salary>
+				<Gross_salary></Gross_salary>
+				<HRA></HRA>
+				<DA></DA>
+			</Salary>
+			<Designation post="HR"></Designation>
+		</Employee>
+	</Emp_details>
+<!--2. Create XML document for Employee where it contains the following data:
+Employee Name, Personal Info (Address, Birthdate,Gender, Mobile
+No,) ,Salary(Net salary, Gross salary, HRA, DA), Designation
+Create External DTD declaration for Employee where
+• Gender has only two choices Male and Female as an element.
+• Designation has an attribute post and value should be Manager,Technical
+Consultant, Executive, HR-->

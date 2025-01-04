@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Personal_info SYSTEM "assign2Q11.dtd">
+	<Personal_info>
+		<Address></Address>
+		<Birthdate></Birthdate>
+		<Gender></Gender>
+		<Mobileno></Mobileno>
+	</Personal_info>
+	<!--In Question 4 Use conditional statement INCLUDE of student
+personal information DTD and IGNORE of result DTD)
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile
+No, Address) ,Result(Total, Percentage, Grade)-->

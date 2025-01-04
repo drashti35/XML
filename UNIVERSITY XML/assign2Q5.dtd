@@ -1,0 +1,7 @@
+<!ELEMENT details (Books)>
+<!ELEMENT Books (book,author,year,publisher)>
+<!ELEMENT book (#PCDATA)>
+<!ATTLIST book title (XML|DCN) #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>

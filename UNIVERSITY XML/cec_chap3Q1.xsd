@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="details">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="college">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="CourseName">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="CourseId" type="xsd:string"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Subject" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="Subjectid" type="xsd:string"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Semester">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:int">
+										<xsd:enumeration value="1"/>
+										<xsd:enumeration value="3"/>
+										<xsd:enumeration value="5"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Contact">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:length value="10"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Address" maxOccurs="2">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:minLength value="5"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="zipcode" type="xsd:int"/>
+							<xsd:element name="email">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="[A-Za-z0-9@.]+"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

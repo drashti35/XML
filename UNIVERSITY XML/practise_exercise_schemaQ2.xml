@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<details>
+		<Student>
+			<Rno>A12</Rno>
+			<Name>abc</Name>
+			<Subject>maths</Subject>
+			<Marks>100</Marks>
+			<Birthyear>2005</Birthyear>
+		</Student>
+	</details>
+	<!--2. Create an XML File as below:
+Student(RNo, Name, Subject, Marks, BirthYear)
+Create a Schema file and put following restrictions.
+• Rno must start with Div like A01
+• Subject may be more than one
+• Birthyear should not be less than 2004
+• Marks Should not be more than 100-->

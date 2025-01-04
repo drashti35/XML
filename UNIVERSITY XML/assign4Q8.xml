@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<Email>
+		<Student>
+			<Roll_no>12</Roll_no>
+			<Name>Diya</Name>
+			<Marks>85</Marks>
+			<Rank>8</Rank>
+			<Result></Result>
+		</Student>
+		<Student>
+			<Roll_no>70</Roll_no>
+			<Name>Drashit</Name>
+			<Marks>99</Marks>
+			<Rank>1</Rank>
+			<Result></Result>
+		</Student>
+		<Student>
+			<Roll_no>112</Roll_no>
+			<Name>Vaibhavi</Name>
+			<Marks>93</Marks>
+			<Rank>5</Rank>
+			<Result></Result>
+		</Student>
+		<Student>
+			<Roll_no>75</Roll_no>
+			<Name>Mauli</Name>
+			<Marks>60</Marks>
+			<Rank>10</Rank>
+			<Result></Result>
+		</Student>
+	</Email>
+	<!--Create an XML document Student where it contains the following
+data :
+Student (Roll_no , Name , Marks , Rank, Result)
+Create XSLT file which may satisfy following conditions:
+when Marks >=70 than Result=”dist”
+when Marks >=60 and <70 than Result=”first”
+when Marks >=40 and <60 than Result=”second”
+otherwise Result=”fail”-->

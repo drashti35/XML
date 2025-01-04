@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+	<details>
+		<city>
+			<cityname>ahmedabad</cityname>
+			<cityid statename="gujarat">A001</cityid>
+			<population>10000</population>
+		</city>
+	</details>

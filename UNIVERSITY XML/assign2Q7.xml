@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+	<!DOCTYPE details SYSTEM "assign2Q7.dtd">
+	<details>
+		<Email>
+			<from>drashti</from>
+			<to>vaibhavi</to>
+			<content>bhjvv
+				<person>alice</person>
+				<exercises>
+					<exercise>
+						<topic></topic>
+						<description></description>
+					</exercise>
+					<exercise>
+						<topic></topic>
+						<description></description>
+					</exercise>
+				</exercises>
+			</content>
+			<course>bcom</course>
+		</Email>
+	</details>
+	<!--Create an XML document Email where it contains the following data :
+Email (from , to ,content ( person , exercises(exercise (topic ,
+description) ) , course ).
+Create An External DTD for the above XML document where
+• Content element of email should be mixed content.
+• Exercises can have multiple exercise element.-->

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "assign2Q1.dtd">
+	<student>
+		<Personal_info>
+			<Roll_no>12</Roll_no>
+			<Name>drashti</Name>
+			<Address>ahmedabad</Address>
+			<Mobile>1234567890</Mobile>
+			<DOB>12-03-2005</DOB>
+			<Age>17</Age>
+			<Qualification>bcom</Qualification>
+		</Personal_info>
+	</student>
+	<!--Create an XML document for storing personal information about
+student where it contains the following data:
+Personal Info( Roll no, Name, Address, Mobile, DOB, Age,
+Qualification)
+Create An External DTD for the above XML document.-->

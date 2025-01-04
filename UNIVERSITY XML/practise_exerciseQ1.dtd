@@ -1,0 +1,10 @@
+<!ELEMENT car_details (car)>
+		<!ELEMENT car (id,company*,name,year,model,engine,mileage)>
+		<!ELEMENT id (#PCDATA)>
+		<!ELEMENT company (#PCDATA)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ATTLIST year yyyy CDATA #REQUIRED>
+		<!ELEMENT model (#PCDATA)>
+		<!ELEMENT engine (#PCDATA)>
+		<!ELEMENT mileage (#PCDATA)>

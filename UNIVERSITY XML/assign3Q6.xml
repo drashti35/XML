@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<Employee>
+		<details>
+			<Emp_num>12</Emp_num>
+			<Name>abc</Name>
+			<Designation>sales</Designation>
+			<salary>10000</salary>
+		</details>
+	</Employee>
+	<!--Write an XML document and corresponding XML schema for
+maintaining the employee number, name, designation, and salary.-->

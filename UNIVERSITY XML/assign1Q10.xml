@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<details>
+		<Employee>
+			<Emp_no></Emp_no>
+			<name></name>
+			<department></department>
+			<Manager_name></Manager_name>
+			<Project_assign>
+				<Proj_1></Proj_1>
+				<Proj_2></Proj_2>
+				<Proj_3></Proj_3>
+			</Project_assign>
+			<designation></designation>
+		</Employee>
+	</details>
+	<!--Create an XML document Employee where it contains the following data :
+Employee (Emp_no , name , Department , Manager Name, Project
+Assign (Proj_1 , Proj_2 ,Proj_3) , Designation)-->

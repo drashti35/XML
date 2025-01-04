@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+	<!DOCTYPE details SYSTEM "assign2Q10.dtd">
+		<details>
+		<Student_info>
+			<Student course="xyz">
+				<name>drashti</name>
+				<contact_no type="1234567890">12345-67890</contact_no>
+			</Student>
+			<Student course="abc">
+				<name>drashti</name>
+				<contact_no type="1234567890">12345-67890</contact_no>
+			</Student>
+			<Course c_id="xyz">
+				<Name>bcom</Name>
+			</Course>
+			<Course c_id="abc">
+				<Name>bcom</Name>
+			</Course>
+			<subject name="xml"></subject>
+		</Student_info>
+		</details>
+	<!--Create an XML document Student_info where it contains the following
+data :
+Student((which_course as attribute), name, contact_no),
+Course((c_id as attribute), name), subject(name as attribute)
+Create An External DTD for the above XML document where
+• student can be one or more times
+• c_id as id and which_course as referance id.
+• Make one entity of your choice and use in document.
+• Make enumerated attributes of subject name as Java, xml, OS
+• Make contact_no as nmtoken-->

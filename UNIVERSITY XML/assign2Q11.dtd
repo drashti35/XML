@@ -1,0 +1,17 @@
+<!ENTITY % Personal_info "INCLUDE">
+	<![ %Personal_info;
+		[
+		<!ELEMENT Personal_info (Address,Birthdate,Gender,Mobileno)>
+		]]> 
+<!ENTITY % result "IGNORE">
+	<![ %result;
+		[
+		<!ELEMENT result (Total,Percentage,Grade)>
+		]]> 
+		<!ELEMENT Address (#PCDATA)>
+		<!ELEMENT Birthdate (#PCDATA)>
+		<!ELEMENT Gender (#PCDATA)>
+		<!ELEMENT Mobileno (#PCDATA)>
+		<!ELEMENT Total (#PCDATA)>
+		<!ELEMENT Percentage (#PCDATA)>
+		<!ELEMENT Grade (#PCDATA)>

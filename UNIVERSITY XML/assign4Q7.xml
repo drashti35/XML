@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+	<Email>
+		<Student>
+			<Roll_no>12</Roll_no>
+			<Name>Diya</Name>
+			<Marks>85</Marks>
+			<Rank>8</Rank>
+		</Student>
+		<Student>
+			<Roll_no>70</Roll_no>
+			<Name>Drashit</Name>
+			<Marks>99</Marks>
+			<Rank>1</Rank>
+		</Student>
+		<Student>
+			<Roll_no>112</Roll_no>
+			<Name>Vaibhavi</Name>
+			<Marks>93</Marks>
+			<Rank>5</Rank>
+		</Student>
+		<Student>
+			<Roll_no>75</Roll_no>
+			<Name>Mauli</Name>
+			<Marks>80</Marks>
+			<Rank>10</Rank>
+		</Student>
+	</Email>
+	<!--Create an XML document Email where it contains the following data :
+Student (Roll_no , Name , Marks , Rank)
+Create XSLT file which may satisfy following conditions:
+if Rank <=5 display “top Students”
+if Rank >5 and Rank <=10 display “Top 10 students”
+else display “Average Students”-->

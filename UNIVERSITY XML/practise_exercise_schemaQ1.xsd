@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Employee">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Emp_details">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="EmpName" type="xsd:string"/>
+							<xsd:element name="EmpId">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="EMP[0-9]{3}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+								</xsd:element>
+							<xsd:element name="Salary" type="xsd:int"/>
+							<xsd:element name="Designation" type="xsd:string"/>
+							<xsd:element name="Address" type="xsd:string" maxOccurs="2"/>
+							<xsd:element name="Zipcode">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="[0-9]{6}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+								</xsd:element>
+							<xsd:element name="Mobile">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="[0-9]{10}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+								</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

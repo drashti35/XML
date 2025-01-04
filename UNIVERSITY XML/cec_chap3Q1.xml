@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+	<details>
+		<college>
+			<CourseName CourseId="101">bcom</CourseName>
+			<Subject Subjectid="102">eco</Subject>
+			<Semester>1</Semester>
+			<Contact>1234567890</Contact>
+			<Address>abadtr</Address>
+			<zipcode>382424</zipcode>
+			<email>abc@gmail.com</email>
+		</college>
+	</details>
+<!--Create an XML file as below:
+College(CourseName,Subject, Semester, Contact, Address, zipcode,email)
+• CourseName has an attribute CourseID.
+• Subject has an attribute SubjectID.
+Create a schema file to implement following:
+• Subject may occur more than once.
+• Contact must be of 10 digits
+• Address must me exactly two and lenght must be more than 5 characters.
+• Email contains alphabets, numbers and @.
+• Semester accepts only 3 values 1/3/5-->

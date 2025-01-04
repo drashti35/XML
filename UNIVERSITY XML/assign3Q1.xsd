@@ -1,0 +1,20 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Details">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="student">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="firstname" type="xsd:string"/>
+							<xsd:element name="lastname" type="xsd:string"/>
+							<xsd:element name="address" type="xsd:string"/>
+							<xsd:element name="percentage" type="xsd:int"/>
+							<xsd:element name="current_year" type="xsd:gYear"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

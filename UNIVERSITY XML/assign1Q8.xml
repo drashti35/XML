@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<details>
+		<Student>
+			<Roll_no>12</Roll_no>
+			<Name>drashti</Name>
+			<Marks>98</Marks>
+			<Rank>1</Rank>
+		</Student>
+	</details>
+	<!--Create an XML document Student where it contains the following data :
+Student (Roll_no , Name , Marks , Rank)-->

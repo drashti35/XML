@@ -1,0 +1,18 @@
+<!ENTITY % Salary "INCLUDE">
+<![%Salary;
+	[
+	<!ELEMENT Salary (Net_salary,Gross_salary,HRA,DA)>
+	]]>
+<!ENTITY % Personal_info "IGNORE">
+	<![%Personal_info;
+		[
+		<!ELEMENT Personal_info (Address,Birthdate,Gender,Mobileno)>
+		]]>
+		<!ELEMENT Net_salary (#PCDATA)>
+		<!ELEMENT Gross_salary (#PCDATA)>
+		<!ELEMENT HRA (#PCDATA)>
+		<!ELEMENT DA (#PCDATA)>
+		<!ELEMENT Address (#PCDATA)>
+		<!ELEMENT Birthdate (#PCDATA)>
+		<!ELEMENT Gender (#PCDATA)>
+		<!ELEMENT Mobileno (#PCDATA)>

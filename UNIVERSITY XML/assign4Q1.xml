@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<Orders>
+		<OrderDetail>
+			<OrderNumber>12</OrderNumber>
+			<Orderate>20</Orderate>
+			<OrderAmount>200</OrderAmount>
+			<ItemPrice>10</ItemPrice>
+			<ItemName>soap</ItemName>
+			<Quantity>20</Quantity>
+		</OrderDetail>
+		<OrderDetail>
+			<OrderNumber>13</OrderNumber>
+			<Orderate>5</Orderate>
+			<OrderAmount>50</OrderAmount>
+			<ItemPrice>15</ItemPrice>
+			<ItemName>conditioner</ItemName>
+			<Quantity>10</Quantity>
+		</OrderDetail>
+		<OrderDetail>
+			<OrderNumber>14</OrderNumber>
+			<Orderate>10</Orderate>
+			<OrderAmount>100</OrderAmount>
+			<ItemPrice>100</ItemPrice>
+			<ItemName>shampoo</ItemName>
+			<Quantity>200</Quantity>
+		</OrderDetail>
+		<OrderDetail>
+			<OrderNumber>15</OrderNumber>
+			<Orderate>40</Orderate>
+			<OrderAmount>400</OrderAmount>
+			<ItemPrice>20</ItemPrice>
+			<ItemName>Hair oil</ItemName>
+			<Quantity>30</Quantity>
+		</OrderDetail>
+	</Orders>
+	<!--Write an XML document which includes
+Order_Detail(OrderNumber, Orderate, OrderAmount,ItemPrice,
+ItemName, Quantity)
+Create XSLT file which will display all the details in formated table.-->

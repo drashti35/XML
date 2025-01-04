@@ -1,0 +1,17 @@
+<!ELEMENT Emp_details (Employee)>
+			<!ELEMENT Employee (Employee_Name,Personal_info,Salary,Designation)>
+			<!ELEMENT Personal_info (Address,Birthdate,Gender,Mobileno)>
+			<!ELEMENT Salary (Net_salary,Gross_salary,HRA,DA)>
+			<!ELEMENT Employee_Name (#PCDATA)>
+			<!ELEMENT Address (#PCDATA)>
+			<!ELEMENT Birthdate (#PCDATA)>
+			<!ELEMENT Gender (male|female)>
+			<!ELEMENT male (#PCDATA)>
+			<!ELEMENT female (#PCDATA)>
+			<!ELEMENT Mobileno (#PCDATA)>
+			<!ELEMENT Net_salary (#PCDATA)>
+			<!ELEMENT Gross_salary (#PCDATA)>
+			<!ELEMENT HRA (#PCDATA)>
+			<!ELEMENT DA (#PCDATA)>
+			<!ELEMENT Designation (#PCDATA)>
+			<!ATTLIST Designation post (HR|Manager|Technical|Consultant|Executive) #REQUIRED>

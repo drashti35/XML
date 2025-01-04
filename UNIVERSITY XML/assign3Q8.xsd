@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="vender">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="details">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="vender_name" type="xsd:string"/>
+							<xsd:element name="Personal_info">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Address" type="xsd:string"/>
+										<xsd:element name="Birthdate" type="xsd:date"/>
+										<xsd:element name="Pincode" type="xsd:int"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

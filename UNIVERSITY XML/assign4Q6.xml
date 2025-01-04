@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+	<details>
+		<Student>
+			<Name fname="drashti" lname="patel">Drashti Patel</Name>
+			<ID>1230</ID>
+			<Plan>
+				<courses>bcom</courses>
+			</Plan>
+		</Student>
+	</details>
+	<!--Create an XML document Student where it contains the following data
+:
+Student(Name (fname & Lname as attribute) , ID , Plan (courses)
+).-->

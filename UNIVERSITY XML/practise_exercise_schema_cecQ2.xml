@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+	<Products>
+		<Product>
+			<pname>soap</pname>
+			<price>700</price>
+		</Product>
+		<Product>
+			<pname>shampoo</pname>
+			<price>200</price>
+		</Product>
+		<Product>
+			<pname>conditioner</pname>
+			<price>600</price>
+		</Product>
+	</Products>
+<!--Create an XML File Structure to store following data for Product:
+Products (Product (pname, price))
+Write an XSLT Code to arrange student details in table format with following:
+a. Header should have foreground color as red
+b. Write an XSLT template that applies a 10% discount only if the product price is greater
+than 500.-->

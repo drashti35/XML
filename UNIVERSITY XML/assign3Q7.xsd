@@ -1,0 +1,40 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="template">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Items" type="itype"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="itype">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string"/>
+			<xsd:element name="Category">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="veg">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string">
+									<xsd:enumeration value="chips"/>
+									<xsd:enumeration value="salad"/>
+									<xsd:enumeration value="Bread"/>
+									<xsd:enumeration value="Biscuit"/>
+								</xsd:restriction>
+							</xsd:simpleType>
+						</xsd:element>
+						<xsd:element name="non-veg" type="xsd:string"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="company_info">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Phone_no" type="xsd:string"/>
+						<xsd:element name="Address" type="xsd:string"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

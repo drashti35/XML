@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+	<email>
+		<Email>
+			<message from="abc" to="xyz" subject="hello">Hello World</message>
+		</Email>
+	</email>
+	<!--Create an XML document email where it contain the
+following data:
+Email(message) as an element and Message(from, to, subject)
+as an attribute.-->

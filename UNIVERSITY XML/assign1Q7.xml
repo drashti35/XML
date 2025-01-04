@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<details>
+		<Email>
+			<from></from>
+			<to></to>
+			<content>
+				<Person></Person>
+				<exercises>
+					<exercise>
+						<topic></topic>
+						<description></description>
+					</exercise>
+				</exercises>
+			</content>
+			<course></course>
+		</Email>
+	</details>
+	<!--Create an XML document Email where it contains the following data :
+Email (from , to ,content ( person , exercises(exercise (topic ,
+description) ) , course ).-->

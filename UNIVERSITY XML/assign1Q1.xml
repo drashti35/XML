@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<Student>
+		<details>
+			<Student_Name>drashti</Student_Name>
+			<Personal_info>
+				<Address>Ahmedabad</Address>
+				<Birthdate>12-03-2005</Birthdate>
+				<Gender>Female</Gender>
+				<Mobileno>1234567890</Mobileno>
+			</Personal_info>
+			<Result>
+				<Total>255</Total>
+				<Percentage>86</Percentage>
+				<Grade>A+</Grade>
+			</Result>
+		</details>
+	</Student>
+	<!--Create XML document for Student where it contains the following data:
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile No,
+Address) ,Result(Total, Percentage, Grade)-->

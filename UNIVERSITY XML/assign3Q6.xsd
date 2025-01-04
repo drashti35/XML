@@ -1,0 +1,19 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Employee">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="details">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Emp_num" type="xsd:int"/>
+							<xsd:element name="Name" type="xsd:string"/>
+							<xsd:element name="Designation" type="xsd:string"/>
+							<xsd:element name="salary" type="xsd:float"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
